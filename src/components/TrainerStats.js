@@ -7,7 +7,7 @@ const TrainerStats = () => {
     return (
         <Card>
             <Card.Header style={{ textAlign: 'left' }}>Luke Scheller</Card.Header>
-            <Card.Body style={{ backgroundColor: '' }}>
+            <Card.Body>
                 <img src={me} alt='' style={{ borderRadius: '50%', width: '250px' }} />
                 <Card.Title style={{ marginTop: '10px' }}></Card.Title>
                 <span>

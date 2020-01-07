@@ -20,11 +20,6 @@ const Home = () => {
                 <Col style={{ border: '1px solid none' }}><a href='https://github.com/lukescheller'><img src={git} alt='' width='70px' /></a></Col>
             </Row>
 
-            <Jumbotron style={about}>
-                <h1>Welcome</h1>
-                <p style={{ textAlign: 'left' }}>I'm a Las Vegas based UNLV student & Frontend Developer. My portfolio is structured upon React.Js, React Context Api, React Bootstrap & Semantic Ui. Special thanks to the PokeApi team for making the theme of this site come to life!</p>
-            </Jumbotron>
-
             <div style={skTitle}>
                 <h1 style={{ marginBottom: '20px' }}>Trainer Profile</h1>
             </div>
@@ -43,13 +38,6 @@ const skTitle = {
     border: '1px solid white',
     textAlign: 'left',
     opacity: '0.2'
-}
-
-const about = {
-    // backgroundImage: 'url(' + back + ')',
-    backgroundRepeat: 'no-repeat',
-    backgroundPosition: 'center center',
-    backgroundSize: '100% 100%',
 }
 
 const style = {
