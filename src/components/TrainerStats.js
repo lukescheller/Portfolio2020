@@ -23,11 +23,9 @@ const TrainerStats = () => {
                     TrainerClass: Scientist<br />
                     Dob: 12/26/1991 (28)<br />
                     Nationality: <Flag name='south korea' /><Flag name='united states' /><Flag name='switzerland' /><br />
-                    Residence: Las Vegas, Nv <Flag name='united states' /><br />
-                    Weight: 150lbs<br />
-                    Height: 5.9 / 175cm <br />
-                    Education: University of Las Vegas Nevada (Graphic Design & Web Development) <br />
-                    Hobbies: Digital Painting, JiuJitsu, Javascript Development, Calisthenics, Skateboarding
+                    Residence: Las Vegas, NV <Flag name='united states' /><br />
+                    Education: University of Las Vegas Nevada<br />
+                    Major: Web Development & Graphic Design<br />
                 </Card.Text>
                 <Card.Title>Contact Info</Card.Title>
                 <Card.Text>

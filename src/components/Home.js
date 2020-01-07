@@ -1,5 +1,5 @@
 import React from 'react'
-import { Jumbotron, Container, Row, Col, Card } from 'react-bootstrap'
+import { Jumbotron, Container, Row, Col } from 'react-bootstrap'
 import { Link } from 'react-router-dom'
 import Skills from './Skills'
 import TrainerStats from './TrainerStats'
@@ -7,7 +7,6 @@ import Banner from '../images/banner.png'
 import pd from '../images/pokedex.png'
 import ig from '../images/ig.png'
 import git from '../images/git.png'
-import back from '../images/back.jpg'
 
 const Home = () => {
     return (
@@ -21,16 +20,10 @@ const Home = () => {
                 <Col style={{ border: '1px solid none' }}><a href='https://github.com/lukescheller'><img src={git} alt='' width='70px' /></a></Col>
             </Row>
 
-            {/* <Card>
-                <Card.Header as="h5" style={{ textAlign: 'left' }}>Featured</Card.Header>
-                <Card.Img variant="top" src={back} />
-                <Card.Body>
-                    <Card.Text>
-                        Some quick example text to build on the card title and make up the bulk
-                        of the card's content.
-                    </Card.Text>
-                </Card.Body>
-            </Card> */}
+            <Jumbotron style={about}>
+                <h1>Welcome</h1>
+                <p style={{ textAlign: 'left' }}>I'm a Las Vegas based UNLV student & Frontend Developer. My portfolio is structured upon React.Js, React Context Api, React Bootstrap & Semantic Ui. Special thanks to the PokeApi team for making the theme of this site come to life!</p>
+            </Jumbotron>
 
             <div style={skTitle}>
                 <h1 style={{ marginBottom: '20px' }}>Trainer Profile</h1>
@@ -50,6 +43,13 @@ const skTitle = {
     border: '1px solid white',
     textAlign: 'left',
     opacity: '0.2'
+}
+
+const about = {
+    // backgroundImage: 'url(' + back + ')',
+    backgroundRepeat: 'no-repeat',
+    backgroundPosition: 'center center',
+    backgroundSize: '100% 100%',
 }
 
 const style = {
