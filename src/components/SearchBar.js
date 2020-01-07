@@ -8,7 +8,8 @@ const SearchBar = (props) => {
 
     const searchVal = (event) => {
         let val = event.target.value
-        setSearch(val)
+        let to_Lower = val.toLowerCase()
+        setSearch(to_Lower)
     }
 
     return (

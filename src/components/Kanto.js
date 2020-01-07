@@ -6,6 +6,7 @@ import axios from 'axios'
 import Spinner from '../components/Spinner'
 import SearchBar from './SearchBar'
 
+
 const Kanto = () => {
     const { state, dispatch } = useContext(PokeContext)
     useEffect(() => {
