@@ -11,7 +11,7 @@ import git from '../images/git.png'
 const Home = () => {
     return (
         <Container>
-            <Jumbotron style={style} fluid='false'>
+            <Jumbotron style={style}>
             </Jumbotron>
 
             <Row style={{ border: '1px solid none', display: 'flex', justifyContent: 'flex-start' }}>
@@ -53,7 +53,8 @@ const style = {
     backgroundRepeat: 'no-repeat',
     backgroundPosition: 'center center',
     backgroundSize: '100% 100%',
-    height: '450px',
+    paddingTop: '25%',
+    paddingBottom: '25%',
     width: '100%',
 };
 
