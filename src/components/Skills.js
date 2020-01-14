@@ -6,6 +6,7 @@ import JAVASCRIPT from '../images/JAVASCRIPT.jpg'
 import NODEJS from '../images/NODEJS.jpg'
 import REACT from '../images/react.png'
 import PHONEGAP from '../images/pg.png'
+import JWT from '../images/jwt.png'
 
 const Skills = () => {
     return (
@@ -37,8 +38,6 @@ const Skills = () => {
                         <small className="text-muted">JS ES6</small>
                     </Card.Footer>
                 </Card>
-            </CardGroup>
-            <CardGroup>
                 <Card>
                     <Card.Img variant="top" src={REACT} />
                     <Card.Body>
@@ -47,6 +46,8 @@ const Skills = () => {
                         <small className="text-muted">React / Context</small>
                     </Card.Footer>
                 </Card>
+            </CardGroup>
+            <CardGroup>
                 <Card>
                     <Card.Img variant="top" src={NODEJS} />
                     <Card.Body>
@@ -61,6 +62,14 @@ const Skills = () => {
                     </Card.Body>
                     <Card.Footer>
                         <small className="text-muted">PhoneGap</small>
+                    </Card.Footer>
+                </Card>
+                <Card>
+                    <Card.Img variant="top" src={JWT} style={{ padding: '7.5%' }} />
+                    <Card.Body>
+                    </Card.Body>
+                    <Card.Footer>
+                        <small className="text-muted">Json Web Token</small>
                     </Card.Footer>
                 </Card>
             </CardGroup>
